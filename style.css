@@ -14,6 +14,7 @@ main {
 }
 
 header {
+    z-index: 1;
     position: sticky;
     top:0px;
 }
@@ -186,7 +187,7 @@ button{
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-    
+    z-index: -1;
 }
 .quiz-card img{
 width: 200px;
@@ -221,6 +222,7 @@ margin-left: 10px;
 .how-it-works{
     /*background-color: #f8f9fa;*/
     padding: 40px;
+    z-index: -1;
 }
 
 .steps{
